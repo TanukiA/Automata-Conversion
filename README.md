@@ -1,18 +1,5 @@
-## Getting Started
+## Conversion of Regular Grammar to Finite Automata
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+This is a JavaFX application which provide a set of conversion functions for Finite Automata. 
 
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+This system will first take the regular grammar as input, either from text file import or direct typing and use it to generate a finite automaton. The 4 conversion tasks involved are: convert regular grammar to NFA, ε-NFA to NFA without ε-transitions, NFA to DFA and DFA minimization. After all these conversions, the system also provides a function of string testing to inform users on whether each string inputted is accepted or rejected by the machine. 
