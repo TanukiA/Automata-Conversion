@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<?import java.util.ArrayList?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="634.0" prefWidth="844.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TabPane layoutY="1.0" prefHeight="631.0" prefWidth="844.0" style="-fx-background-color: FFFFFF;" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab text="Home">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: FFECBD;">
+                     <children>
+                        <Text layoutX="293.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TIC2151 Theory of Computation">
+                           <font>
+                              <Font size="18.0" />
+                           </font></Text>
+                        <Text layoutX="401.0" layoutY="68.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TT1L">
+                           <font>
+                              <Font size="18.0" />
+                           </font></Text>
+                        <Text layoutX="387.0" layoutY="94.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Group 4">
+                           <font>
+                              <Font size="18.0" />
+                           </font></Text>
+                        <ImageView fitHeight="194.0" fitWidth="147.0" layoutX="130.0" layoutY="122.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@img/adeline.jpeg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="213.0" fitWidth="128.0" layoutX="366.0" layoutY="120.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@img/nurshara.jpeg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="214.0" fitWidth="141.0" layoutX="574.0" layoutY="121.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@img/pavitra.jpeg" />
+                           </image>
+                        </ImageView>
+                        <Text layoutX="140.0" layoutY="360.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Adeline Fong Li Ling">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="328.0" layoutY="360.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nurshara Batrisyia Binti Shaifuddin">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="588.0" layoutY="360.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pavitra A/P Sankar">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="162.0" layoutY="385.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1191100708">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="389.0" layoutY="384.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1201301079">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="604.0" layoutY="384.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1191303322">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="178.0" layoutY="338.0" strokeType="OUTSIDE" strokeWidth="0.0" text="(Leader)">
+                           <font>
+                              <Font name="System Italic" size="14.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="352.0" layoutY="441.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Members Participation" underline="true">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="251.0" layoutY="484.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Adeline Fong Li Ling (1191100708)">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="251.0" layoutY="522.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nurshara Batrisyia Binti Shaifuddin (1201301079)">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="252.0" layoutY="561.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pavitra A/P Sankar (1191303322)">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="575.0" layoutY="483.0" strokeType="OUTSIDE" strokeWidth="0.0" text="= 40%">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="575.0" layoutY="521.0" strokeType="OUTSIDE" strokeWidth="0.0" text="= 30%">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="575.0" layoutY="560.0" strokeType="OUTSIDE" strokeWidth="0.0" text="= 30%">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+          <Tab text="RG -&gt; FA">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="584.0" prefWidth="600.0" style="-fx-background-color: FFECBD;">
+                     <children>
+                        <Text layoutX="224.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Regular Grammars (input)">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Text>
+                        <Button fx:id="importBtn" layoutX="492.0" layoutY="48.0" mnemonicParsing="false" onAction="#importBtnClicked" prefHeight="25.0" prefWidth="75.0" style="-fx-background-color: #000000;" text="Import" textFill="WHITE" />
+                        <Button id="clearBtn" fx:id="clearBtn" layoutX="491.0" layoutY="88.0" mnemonicParsing="false" onAction="#clearBtnClicked" prefHeight="25.0" prefWidth="77.0" style="-fx-background-color: #000000;" text="Clear" textFill="WHITE" />
+                        <Button fx:id="NFAbtn" layoutX="28.0" layoutY="275.0" mnemonicParsing="false" onAction="#NFAbtnClicked" prefHeight="25.0" prefWidth="82.0" style="-fx-background-color: #000000;" text="NFA" textFill="WHITE" />
+                        <Button fx:id="NFA2btn" layoutX="29.0" layoutY="325.0" mnemonicParsing="false" onAction="#NFA2btnClicked" prefHeight="25.0" prefWidth="81.0" style="-fx-background-color: #000000;" text="NFA w/o ε " textFill="WHITE" />
+                        <Button fx:id="DFAbtn" layoutX="29.0" layoutY="377.0" mnemonicParsing="false" onAction="#DFAbtnClicked" prefHeight="25.0" prefWidth="81.0" style="-fx-background-color: #000000;" text="DFA" textFill="WHITE" />
+                        <Button fx:id="minDFAbtn" layoutX="29.0" layoutY="432.0" mnemonicParsing="false" onAction="#minDFAbtnClicked" prefHeight="25.0" prefWidth="81.0" style="-fx-background-color: #000000;" text="Min DFA" textFill="WHITE" />
+                        <Button fx:id="testBtn" layoutX="29.0" layoutY="487.0" mnemonicParsing="false" onAction="#testBtnClicked" prefHeight="25.0" prefWidth="81.0" style="-fx-background-color: #000000;" text="Test" textFill="WHITE" />
+                        <AnchorPane fx:id="outputPane" layoutX="149.0" layoutY="246.0" prefHeight="333.0" prefWidth="651.0" style="-fx-background-color: FFFFFF;">
+                           <effect>
+                              <DropShadow height="31.0" radius="15.75" width="34.0" />
+                           </effect>
+                           <children>
+                              <Label fx:id="tuple_label" layoutX="21.0" layoutY="28.0" text="M = (Q, ∑, δ, p0, F)" visible="false" />
+                              <Label fx:id="Q_label" layoutX="21.0" layoutY="52.0" text="Q =" visible="false" />
+                              <Label fx:id="symbol_label" layoutX="20.0" layoutY="76.0" text="∑ = " visible="false" />
+                              <Label fx:id="transition_label" layoutX="22.0" layoutY="100.0" text="δ: Q X Σ → Pow(Q)" visible="false" />
+                              <Label fx:id="firstState_label" layoutX="17.0" layoutY="124.0" text="p0 = " visible="false" />
+                              <Label fx:id="finalState_label" layoutX="22.0" layoutY="149.0" text="F =" visible="false" />
+                              <TableView fx:id="table" layoutX="171.0" layoutY="24.0" prefHeight="272.0" prefWidth="344.0" visible="false" />
+                              <Text fx:id="testTitle" layoutX="221.0" layoutY="81.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Check strings (input)" visible="false">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Text>
+                              <TextArea fx:id="testArea" layoutX="166.0" layoutY="100.0" prefHeight="133.0" prefWidth="237.0" visible="false">
+                                 <effect>
+                                    <DropShadow height="32.0" radius="16.0" width="34.0" />
+                                 </effect>
+                                 <font>
+                                    <Font size="15.0" />
+                                 </font>
+                              </TextArea>
+                              <Button fx:id="checkBtn" layoutX="247.0" layoutY="252.0" mnemonicParsing="false" onAction="#checkBtnClicked" prefHeight="25.0" prefWidth="75.0" style="-fx-background-color: #000000;" text="Check" textFill="WHITE" visible="false" />
+                              <Label fx:id="checkResult1" layoutX="423.0" layoutY="99.0" visible="false" />
+                              <Label fx:id="checkResult2" layoutX="423.0" layoutY="124.0" visible="false" />
+                              <Label fx:id="checkResult3" layoutX="423.0" layoutY="149.0" prefWidth="28.0" visible="false" />
+                              <Label fx:id="checkResult4" layoutX="423.0" layoutY="172.0" visible="false" />
+                              <Label fx:id="checkResult5" layoutX="423.0" layoutY="196.0" visible="false" />
+
+                              <fx:define>
+                                 <ArrayList fx:id="checkResultLabels">
+                                    <fx:reference source="checkResult1" />
+                                    <fx:reference source="checkResult2" />
+                                    <fx:reference source="checkResult3" />
+                                    <fx:reference source="checkResult4" />
+                                    <fx:reference source="checkResult5" />
+                                 </ArrayList>
+                              </fx:define>
+
+                           </children>
+                        </AnchorPane>
+                        <TextArea fx:id="inputArea" layoutX="149.0" layoutY="46.0" prefHeight="172.0" prefWidth="320.0">
+                           <effect>
+                              <DropShadow height="32.0" radius="16.0" width="34.0" />
+                           </effect>
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </TextArea>
+                        <Label fx:id="importFileLabel" layoutX="575.0" layoutY="52.0" prefHeight="17.0" prefWidth="129.0" />
+                        <Button fx:id="epsilonKey" layoutX="587.0" layoutY="172.0" mnemonicParsing="false" onAction="#epsilonKeyClicked" prefHeight="25.0" prefWidth="75.0" style="-fx-background-color: #443F92;" text="Add ε" textFill="WHITE" />
+                        <Button fx:id="arrowKey" layoutX="492.0" layoutY="172.0" mnemonicParsing="false" onAction="#arrowKeyClicked" prefHeight="25.0" prefWidth="75.0" style="-fx-background-color: #443F92;" text="Add →" textFill="WHITE" />
+                        <Text layoutX="492.0" layoutY="149.0" strokeType="OUTSIDE" strokeWidth="0.0" text="For special character input, add using buttons:" underline="true" />
+                     </children></AnchorPane>
+            </content>
+          </Tab>
+            <Tab text="Help">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="553.0" prefWidth="600.0" style="-fx-background-color: FFECBD;">
+                     <children>
+                        <Text layoutX="110.0" layoutY="91.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1. Format of Regular Grammar Input:">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="158.0" layoutY="126.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A→1B|0C">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="158.0" layoutY="150.0" strokeType="OUTSIDE" strokeWidth="0.0" text="B→ε">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="158.0" layoutY="174.0" strokeType="OUTSIDE" strokeWidth="0.0" text="C→B|1A">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="284.0" layoutY="173.0" strokeType="OUTSIDE" strokeWidth="0.0" text="*Can use provided buttons to enter special characters">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="110.0" layoutY="238.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2. Import File:">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="145.0" layoutY="271.0" strokeType="OUTSIDE" strokeWidth="0.0" text="only txt file is allowed; text format must be same as stated above in (1).">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="110.0" layoutY="341.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3. How To Do Conversion:">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="145.0" layoutY="375.0" strokeType="OUTSIDE" strokeWidth="0.0" text="you must click the convert buttons in top-to-down order, without skipping any.">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="145.0" layoutY="407.0" strokeType="OUTSIDE" strokeWidth="0.0" text="(NFA → NFA w/o ε → DFA → Min DFA → Test)">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="145.0" layoutY="440.0" strokeType="OUTSIDE" strokeWidth="0.0" text="if you skipped any, you won't be able to get correct result for the next part.">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Text>
+                     </children></AnchorPane>
+              </content>
+            </Tab>
+        </tabs>
+      </TabPane>
+   </children>
+</AnchorPane>
