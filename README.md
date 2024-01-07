@@ -1,4 +1,4 @@
-## Finite-Automata
+## Automata-Conversion
 
 This is a JavaFX application which provides a set of conversion functions for Finite Automata. 
 
